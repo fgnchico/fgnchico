@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('./assets/Bem-Vindo (1).png');
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+}
+
+.logo {
+    width: 150px;
+}
+
+.containerLogo {
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #49EFFF;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.frase {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 3px;
+    margin-top: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.conteudo {
+    height: 145px;
+    width: 100%;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-image: url('./assets/Logotipo\ circular\ moderno\ vintage\ iniciais\ laranja\ e\ cinza\ \(3\).png');
+    background-position: center;
+    display: flex;
+}
+
+@media (min-width: 760px) {
+    .desk {
+        margin: auto;
+        position: fixed;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .containerLogo{
+        width: 50px;
+    }
+    /* .conteudo {
+        height: 185px;
+    } */
+    .prateleira {
+        border-left: 2px solid rgba(29, 29, 29, 0.842);
+        border-right: 2px solid rgba(29, 29, 29, 0.842);
+    }
+    .contexto {
+        width: 1000px;
+        margin: auto;
+    }
+    .container {
+        display: flex;
+    }
+    .titulo {
+        color: #117379;
+    }
+    .frase {
+        color: #117379;
+    }
+}
+
+.img-conteudo {
+    width: 360px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* .m-auto {
+    margin: 0 auto;
+} */
+
+.m-carrinho {
+    margin-bottom: 85px !important;
+}
+
+.m-icon {
+    margin-top: -10px !important;
+}
+
+.m-negativo {
+    margin-top: -20px !important;
+}
+
+.direcao {
+    flex-direction: column;
+}
